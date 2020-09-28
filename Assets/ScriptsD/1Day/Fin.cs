@@ -7,7 +7,7 @@ public class Fin : MonoBehaviour, IDialogEventHandler
 {
     public void FinishedHandler()
     {
-        IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.FourthDayOffice, DialogManager.Places.SolveDreamPuzzle,true,() => SceneManager.LoadScene(14), 62);
+        IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.FourthDayOffice, DialogManager.Places.SolveDreamPuzzle,true,() => SceneManager.LoadScene("Fin"), 62);
         StartCoroutine(dialogs.OpenDialogCoroutine());        
     }
 }

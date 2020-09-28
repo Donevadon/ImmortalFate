@@ -9,7 +9,7 @@ public class GoWork : MonoBehaviour,IDialogEventHandler
     public Image Display;
     public float speedDarken;
     public int timePause;
-    public int scene;
+    public string nameScene;
 
     public void FinishedHandler()
     {
@@ -31,7 +31,7 @@ public class GoWork : MonoBehaviour,IDialogEventHandler
             yield return new WaitForSeconds(0);
         }
         yield return new WaitForSeconds(timePause);
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene(nameScene);
         yield break;
     }
 

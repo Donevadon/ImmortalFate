@@ -328,12 +328,12 @@ PrefabInstance:
     - target: {fileID: 7642154360764631024, guid: 5036a407f89f7f8489a5039a282128ed,
         type: 3}
       propertyPath: NumberCallEvent
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7642154360764631024, guid: 5036a407f89f7f8489a5039a282128ed,
         type: 3}
       propertyPath: scene
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7642154360764631025, guid: 5036a407f89f7f8489a5039a282128ed,
         type: 3}
@@ -343,7 +343,12 @@ PrefabInstance:
     - target: {fileID: 7642154360764631025, guid: 5036a407f89f7f8489a5039a282128ed,
         type: 3}
       propertyPath: scene
-      value: 9
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642154360764631025, guid: 5036a407f89f7f8489a5039a282128ed,
+        type: 3}
+      propertyPath: nameScene
+      value: 4DayStreetMorning
       objectReference: {fileID: 0}
     - target: {fileID: 7642154360764631027, guid: 5036a407f89f7f8489a5039a282128ed,
         type: 3}

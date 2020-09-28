@@ -967,7 +967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086fdd4e56bc5cf43881b886be50411c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IndexScene: 3
+  nameScene: 1DayStreetEvening
   using: 2
   FinishedDialogs: 0
 --- !u!1 &759081844

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TransitionsScenes : MonoBehaviour,IDialogEventHandler
 {
-    public int IndexScene;
+    public string nameScene;
     public Using @using;
     public bool FinishedDialogs;
 
@@ -44,6 +44,6 @@ public class TransitionsScenes : MonoBehaviour,IDialogEventHandler
     private void Load()
     {
         if ((FinishedDialogs && !DialogManager.Lock) || !FinishedDialogs)
-            SceneManager.LoadScene(IndexScene);
+            SceneManager.LoadScene(nameScene);
     }
 }

@@ -17,7 +17,7 @@ public class Ari : MonoBehaviour, IDialogEventHandler
     {
         Display.color = new Color(0, 0, 0, 1);
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("2DayHomeMorning");
     }
 
 }

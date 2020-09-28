@@ -9,43 +9,46 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: a0eb50818edd1e2499b9108b367c71ab
   - enabled: 1
-    path: Assets/Scenes/1Day/FirstDay.unity
+    path: Assets/Scenes/1Day/1DayStreetMorning.unity
     guid: 448e7535cd1ddbe44a37e45d4f7abece
   - enabled: 1
-    path: Assets/Scenes/1Day/Office.unity
+    path: Assets/Scenes/1Day/1DayOffice.unity
     guid: 65da6b386480c794587fb23f6525be18
   - enabled: 1
-    path: Assets/Scenes/1Day/FirstDayStreet.unity
+    path: Assets/Scenes/1Day/1DayStreetEvening.unity
     guid: 6bab3c104d310494180c96cd8cb9de58
   - enabled: 1
-    path: Assets/Scenes/2Day/HomeMorning.unity
+    path: Assets/Scenes/2Day/2DayHomeMorning.unity
     guid: 9b357fb9e2c5df346980ea7390907a83
   - enabled: 1
-    path: Assets/Scenes/2Day/Morningstreet.unity
+    path: Assets/Scenes/2Day/2DayStreetMorning.unity
     guid: e460bececeeab9043941f74fafb630fe
   - enabled: 1
-    path: Assets/Scenes/2Day/Office.unity
+    path: Assets/Scenes/2Day/2DayOffice.unity
     guid: 4eb2e2a34f6b30d4db1a9d58b8a8904e
   - enabled: 1
-    path: Assets/Scenes/2Day/NightStreet.unity
+    path: Assets/Scenes/2Day/2DayStreetEvening.unity
     guid: 89d0162107b8d484fab255a72f1a1117
   - enabled: 1
-    path: Assets/Scenes/3Day/Home.unity
+    path: Assets/Scenes/3Day/3DayHomeMorning.unity
     guid: 1f6a47160bc4fc84aab611e4eeb76545
   - enabled: 1
-    path: Assets/Scenes/3Day/Morningstreet.unity
+    path: Assets/Scenes/3Day/3DayStreetMorning.unity
     guid: ebda757568214cf4d9d5c9510fa7325d
   - enabled: 1
-    path: Assets/Scenes/3Day/Office.unity
+    path: Assets/Scenes/3Day/3DayOffice.unity
     guid: c81e825051b1012469091d75e244d2cd
   - enabled: 1
-    path: Assets/Scenes/3Day/Street.unity
+    path: Assets/Scenes/3Day/3DayStreetEvening.unity
     guid: 7691ac415092a9b40aeb10af535b8d8b
   - enabled: 1
-    path: Assets/Scenes/4Day/Morningstreet.unity
+    path: Assets/Scenes/4Day/4DayHomeMorning.unity
+    guid: 4238159723f12234696fcbaa5211743f
+  - enabled: 1
+    path: Assets/Scenes/4Day/4DayStreetMorning.unity
     guid: 8f914de5e8a08b349a8f3fe0c84fe48e
   - enabled: 1
-    path: Assets/Scenes/4Day/Office.unity
+    path: Assets/Scenes/4Day/4DayOffice.unity
     guid: ff5b01390f6fa6f47b49c82e9a859605
   - enabled: 1
     path: Assets/Scenes/4Day/Fin.unity

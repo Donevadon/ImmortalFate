@@ -2,7 +2,7 @@
 
 <root>
 
-	<EdWakeUp>
+	<ThoughtsAfterLeaveOffice>
 		<Hero name="">What the hell happened now?</Hero>
 		<Hero name="">Am I fired tomorrow?</Hero>
 		<Hero name="">For help in ha...</Hero>
@@ -17,6 +17,6 @@
 		<Hero name="">What will make me better?</Hero>
 		<Hero name="">What nonsense...</Hero>
 		<Hero name="">God, please, let it all be just a terrible and incomprehensible dream...</Hero>
-	</EdWakeUp>
+	</ThoughtsAfterLeaveOffice>
 
 </root>

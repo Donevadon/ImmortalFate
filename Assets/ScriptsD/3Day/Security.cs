@@ -5,9 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Security : MonoBehaviour, IDialogEventHandler
 {
-    public int scene;
     public void FinishedHandler()
     {
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene("3DayStreetEvening");
     }
 }

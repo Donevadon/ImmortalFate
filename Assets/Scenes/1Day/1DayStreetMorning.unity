@@ -466,6 +466,7 @@ MonoBehaviour:
   scene: 1
   place: 8
   moveLock: 0
+  FinishedDialogs: 0
 --- !u!1 &487330925
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,8 +591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086fdd4e56bc5cf43881b886be50411c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IndexScene: 2
+  nameScene: 1DayOffice
   using: 0
+  FinishedDialogs: 1
 --- !u!61 &568966708
 BoxCollider2D:
   m_ObjectHideFlags: 0
