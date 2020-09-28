@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<PeopleTalkFirst>
+		<Hero name="Chris">Man, have you ever heard of the déjà vu effect? </Hero>
+		<Hero name="Security">No.</Hero>
+		<Hero name="Chris">In short, this is when a person feels that he has already been in a similar situation or in a similar place, said such things.</Hero>
+		<Hero name="Security">Damn, cooool...</Hero>
+	</PeopleTalkFirst>
+
+	<PeopleTalkSecond>
+		<Hero name="Mark">Yesterday she came up and said: my friends and I were gossiping and came to the conclusion that you are a big loser. Clerk? Are you serious?..</Hero>
+		<Hero name="Mark">I told her: listen, do you remember how our relationship began? I said that I was uncomfortable, even ashamed that I was just a clerk, but I was trying to get through to another position.</Hero>
+		<Hero name="Mark">And she knew all about it from the very beginning, and I told her what exactly I had a problem with.</Hero>
+		<Hero name="Mark">Well, I just don't understand why she started talking like this...</Hero>
+		<Hero name="Bob">Yes, some kind of strange behavior, I sympathize that it began when it was already restless without it.</Hero>
+		<Hero name="Bob">The problem with work, and on the other hand, misunderstanding of the situation... Not very cool. Listen, can I help you somehow? </Hero>
+		<Hero name="Mark">No, not really. No help is needed here. Just need calmness and time for everything to work out.</Hero>
+		<Hero name="David">Most importantly, don't bother too much about this, I believe that everything will work out.</Hero>
+	</PeopleTalkSecond>
+
+	<ClickOnWorkspace>
+		<Hero name="">This is how it always happens. If you didn’t join the company from the very beginning, it means that you will never join. And what about someone who got a job later than them?</Hero>
+		<Hero name="">Oh yes. Walk in silence and just sit at your desk, just do your job, and then leave.</Hero>
+		<Hero name="">How boring it is.</Hero>
+		<Hero name="">Anyway, who is this? It’s like I’m seeing them for the first time.</Hero>
+		<Hero name="">Okay, I came later than everyone else, I should work, not think about it. Damn morning, damn dream and damn headache. So, okay, here we go again...</Hero>
+	</ClickOnWorkspace>
+
+	<SolveWorkPuzzle>
+		<Hero name="">God, this is all boring, I do it every ducking day.</Hero>
+		<Hero name="">I think it's time to go home.</Hero>
+	</SolveWorkPuzzle>
+
+</root>

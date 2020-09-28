@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<PeopleTalkFirst>
+		<Hero name="Chris">Hey, have you ever heard of the déjà vu effect? Have you ever felt this way?</Hero>
+		<Hero name="Security">No, this is the first time I hear about it. What's this?</Hero>
+		<Hero name="Chris">In short, this is when a person feels that he has already been in a similar situation or in a similar place, said such things...</Hero>
+		<Hero name="Security">Wow, interesting stuff... Never experienced.</Hero>
+		<Hero name="Security">Feels like...</Hero>
+		<Hero name="Security">Now, now...</Hero>
+		<Hero name="Security">No, never.</Hero>
+		<Hero name="Chris">Me too. Honestly, I don't understand how this can be. This is something from the category of unreal.</Hero>
+		<Hero name="Chris">You also say that in the twenty-first century some sore will pop up, which will infect several tens of millions of people around the planet.</Hero>
+		<Hero name="Security">Ahaha, yes, yes, and which appeared in some super ridiculous way, like as if someone ate something incomprehensible.</Hero>
+		<Hero name="Chris">Well yes, from this episode.</Hero>
+	</PeopleTalkFirst>
+
+	<ClickOnChris>
+		<Hero name="Chris">Dude, don't say you've ever had déjà vu. I won't believe.</Hero>
+	</ClickOnChris>
+
+	<ClickOnBob>
+		<Hero name="Bob">By the way, Ed, I would like to thank you again for your help yesterday.</Hero>
+		<Hero name="Bob">I'm lucky to have you in the right place at the right time.</Hero>
+		<Hero name="Ed">Overall, you should thank Ari.</Hero>
+	</ClickOnBob>
+
+	<ClickOnMark>
+		<Hero name="Mark">Wha?</Hero>
+	</ClickOnMark>
+
+	<ClickOnDavid>
+		<Hero name="David">Dude, it's cool that you helped yesterday, thanks.</Hero>
+		<Hero name="David">Hopefully this won't happen today.</Hero>
+		<Hero name="David">But if anything, can I contact you?</Hero>
+		<Hero name="Ed">Yes, I'll be over there.</Hero>
+	</ClickOnDavid>
+
+	<ClickOnWorkspace>
+		<Hero name="">I wonder where is Ari? I mustn't forget to talk to her.</Hero>
+		<Hero name="">Okay, no prelude today. Immediately to work. Okay, here we go again</Hero>
+	</ClickOnWorkspace>
+
+	<SolveWorkPuzzle>
+		<Hero name="Mark">Hello Ed!</Hero>
+		<Hero name="Ed">Yes, Hello.</Hero>
+		<Hero name="Mark">I'm Mark, remember me?</Hero>
+		<Hero name="Ed">Uh, to be honest, no.</Hero>
+		<Hero name="Mark">Okay, it doesn't really matter.</Hero>
+		<Hero name="Mark">Listen, Bob told me that you are a hero and a jack of all trades... I just need this one, will you help me?</Hero>
+		<Hero name="">Basically, I finished my job...</Hero>
+		<Hero name="Ed">What exactly do you need?</Hero>
+		<Hero name="Mark">Here the door to the store on the second floor in the left section for some reason cannot be opened, and the key cannot be used... Although this is not the right key...</Hero>
+		<Hero name="Mark">The storekeeper has already left, and I have very little work left to complete the project.</Hero>
+		<Hero name="Ed">There is not one store in the whole office. So use another one.</Hero>
+		<Hero name="Mark">I already looked there, and there was not what I needed...</Hero>
+		<Hero name="Mark">Maybe next week those stores will be replenished, but I can't wait so long.</Hero>
+		<Hero name="Mark">There is only one door left to check. And if it's not there, I have to write an application for a quick order, and you know how not cool it is...</Hero>
+		<Hero name="Ed">So, what is needed from me, I still do not understand.</Hero>
+		<Hero name="Mark">Can you take a look how to open this damn door? Maybe something comes to your mind.</Hero>
+		<Hero name="Ed">Well okay, it's not hard for me.</Hero>
+		<Hero name="Mark">I will be extremely grateful to you!</Hero>
+		<Hero name="">Ok, so, on the second floor in the left section.</Hero>
+	</SolveWorkPuzzle>
+
+	<ClickOnMarkBeforeSolveLockPuzzle>
+		<Hero name="Mark">How's it going? Already opened that door?</Hero>
+		<Hero name="Mark">In case you forgot, it's in the left section on the second floor.</Hero>
+		<Hero name="Ed">I'm just in the process...</Hero>
+	</ClickOnMarkBeforeSolveLockPuzzle>
+
+	<ClickOnLock>
+		<Hero name="">Yes, indeed, the key doesn't help...</Hero>
+		<Hero name="">I need to find something small and thin, like a false key. With that I can easily open it.</Hero>
+	</ClickOnLock>
+
+	<HairpinHint>
+		<Hero name="">I need to find the right thing to pick the lock. Something small and thin, maybe sharp.</Hero>
+	</HairpinHint>
+
+	<ClickOnHairpin>
+		<Hero name="">Yes, this might work.</Hero>
+	</ClickOnHairpin>
+
+	<HairpinBreak>
+		<Hero name="">No, not that... Broken hair clip is missing length, I need to look for a new one.</Hero>
+	</HairpinBreak>
+
+	<ClickOnLockAfterHairpinBreak>
+		<Hero name="">So, well, let's try again.</Hero>
+	</ClickOnLockAfterHairpinBreak>
+
+	<SolveLockPuzzle>
+		<Hero name="">Success.</Hero>
+		<Hero name="">Gotta tell Mark to earn points, hehe.</Hero>
+	</SolveLockPuzzle>
+
+	<ClickOnMarkAfterSolveLockPuzzle>
+		<Hero name="Ed">Hey Mark, the store is open. Go, take what you needed. I'll probably go home already.</Hero>
+		<Hero name="Mark">Wow, you're really cool! Thanks hehe.</Hero>
+		<Hero name="Mark">Have you finished your daily plan yet?</Hero>
+		<Hero name="Ed">Yep.</Hero>
+		<Hero name="Mark">Lucky you... Okay, good luck! You will need it.</Hero>
+		<Hero name="Mark">Sorry if that. But, after all, everything that is done is for the best, right?</Hero>
+		<Hero name="Ed">I don't even know.</Hero>
+	</ClickOnMarkAfterSolveLockPuzzle>
+
+	<EdWalkUpSecurity>
+		<Hero name="Security">So man, what the duck is this?</Hero>
+		<Hero name="Security">I'm not as dumb as you think. What kind of work do you think I am doing?</Hero>
+		<Hero name="Security">You forgot about cameras!</Hero>
+		<Hero name="Ed">What are you talking about?..</Hero>
+		<Hero name="Security">The boss gave a clear indication of this and this shit is the most punishable...</Hero>
+		<Hero name="Security">You can get out of here and come back tomorrow for your letter of resignation and your stuff, because the boss will find out about it.</Hero>
+		<Hero name="Security">Don't go into locked doors.</Hero>
+		<Hero name="Security">Why do you think there is a lock there, idiot?</Hero>
+		<Hero name="Security">Get out of here.</Hero>
+	</EdWalkUpSecurity>
+	
+</root>

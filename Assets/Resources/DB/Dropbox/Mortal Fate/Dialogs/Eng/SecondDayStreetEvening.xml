@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<EdWalkUpAriFirst>
+		<Hero name="Ari">Hey, Hello!</Hero>
+		<Hero name="Ed">Hey, what are you doing here?</Hero>
+		<Hero name="Ari">Waiting for you.</Hero>
+		<Hero name="Ed">What? I forgot to give you something?</Hero>
+		<Hero name="Ari">No no, I just decided to wait for you. When I left, you were still at work and you looked very sad. Again</Hero>
+		<Hero name="Ed">Oh, well... Yes, while I was helping everyone as some kind of main character in the game, I didn't finish my work on time and had to stay up for so long...</Hero>
+		<Hero name="Ed">I shouldn't have turned on the altruist. Anyway, it's strange that I turned it on.</Hero>
+	</EdWalkUpAriFirst>
+
+	<EdWalkUpAriSecond>
+		<Hero name="Ari">No, I'm sorry, but you're very wrong here.</Hero>
+		<Hero name="Ari">You are a fine fellow, because without you these people would not have coped, and you never know what could have happened...</Hero>
+		<Hero name="Ari">You did everything right and I'm very proud of you</Hero>
+		<Hero name="Ed">I don't know what's right here, to be honest...</Hero>
+		<Hero name="Ari">Well, look, besides the plus that I have already brought to you, you also got to know the guys from the office, where, as I understand it, you have been working for a very long time</Hero>
+		<Hero name="Ari">Agree, this is a very good reason to become acquainted.</Hero>
+	</EdWalkUpAriSecond>
+
+	<EdWalkUpAriThird>
+		<Hero name="Ari">You know, in fact, dating change people's lives. They can color it.</Hero>
+		<Hero name="Ari">Friends can support and help. Enemies - make you better and stronger.</Hero>
+		<Hero name="Ari">Well, love - turn your whole world upside down. Change all your views.</Hero>
+		<Hero name="Ari">Don't underestimate the power of how some people can influence others.</Hero>
+		<Hero name="">Well, I can hardly find words for this.</Hero>
+		<Hero name="">As a child, I always dreamed of having at least a few people on whom I could rely and who would understand me</Hero>
+		<Hero name="">But I couldn't find anyone because I couldn't even search</Hero>
+		<Hero name="">What is it like when there are no eternal orders from your parents over you?</Hero>
+		<Hero name="">When you have your own opinion. How to spend an evening, day, weekend or holidays.</Hero>
+		<Hero name="">When You Are Not a Tamagotch.</Hero>
+		<Hero name="">...</Hero>
+		<Hero name="">I don't know, Ari.</Hero>
+		<Hero name="">That's just the point.</Hero>
+		<Hero name="">But I can't say it.</Hero>
+		<Hero name="">I can't. I have not learned.</Hero>
+		<Hero name="">So there is only one thing I can do. Just leave this life and no one will even remember me.</Hero>
+	</EdWalkUpAriThird>
+
+	<EdAriWalkUpEdHome>
+		<Hero name="Ari">By the way, listen, did you find my book? I lost her, apparently, after we met that night</Hero>
+		<Hero name="">What?.. It was in a dream...</Hero>
+	</EdAriWalkUpEdHome>
+
+	<GiveBookAri>
+		<Hero name="">I found the Divine Comedy .. Is that her book?</Hero>
+		<Hero name="Ed">Not this one, by any chance?</Hero>
+		<Hero name="Ari">Yes, exactly it is, there are my notes. Thank you very much!!</Hero>
+		<Hero name="Ari">Well, it was already so late, and we "chatted" so...</Hero>
+		<Hero name="Ari">Good night, Ed.</Hero>
+		<Hero name="Ed">Pleasant dreams, Ari.</Hero>
+	</GiveBookAri>
+
+	<DontGiveBookAri>
+		<Hero name="Ed">No, I didn't find any book.</Hero>
+		<Hero name="Ari">Damn, so sorry... I've already read almost all of it. Almost! Well, okay.</Hero>
+		<Hero name="Ari">If you suddenly find the Divine Comedy, please take it with you.</Hero>
+		<Hero name="Ed">Yes, okay, no problem.</Hero>
+		<Hero name="Ari">Well, it was already so late, and we "chatted" so...</Hero>
+		<Hero name="Ari">Good night, Ed.</Hero>
+		<Hero name="Ed">Pleasant dreams, Ari.</Hero>
+	</DontGiveBookAri>
+
+</root>

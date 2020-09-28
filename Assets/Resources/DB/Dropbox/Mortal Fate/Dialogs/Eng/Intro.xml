@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<EdWakeUp>
+		<Hero name="">Hey, why the hell is my head hurting?...</Hero>
+		<Hero name="">Wait, what? This is...</Hero>
+		<Hero name="">Is this my room from childhood?</Hero>
+	</EdWakeUp>
+
+	<ClickOnTable>
+		<Hero name="">Oooh, no matter how much time I spent on the Olympics, it still took a lot more sitting at this table.</Hero>
+		<Hero name="">It seems like I got up from it just yesterday</Hero>
+	</ClickOnTable>
+
+	<ClickOnPoster>
+		<Hero name="">Recognition, glory, love, friends. I always wanted to be in his place.</Hero>
+		<Hero name="">But, apparently, my life will never be like his life. Sorry...</Hero>
+	</ClickOnPoster>
+
+	<ClickOnAwards>
+		<Hero name="">I am already confused by the memories of these endless Olympiads and competitions.</Hero>
+		<Hero name="">How many were there? Fifty? One hundred? They are all so similar and I spent so much time on them...</Hero>
+		<Hero name="">I wonder why my parents shoved all this under the cover of compulsory education, university, diploma. Did they love me at all, or did they just want to make me a machine that knows the answers to all questions?</Hero>
+	</ClickOnAwards>
+
+	<ClickOnPhotos>
+		<Hero name="">For every holiday we went with the whole family somewhere. New Zealand, Beijing, Moscow.</Hero>
+		<Hero name="">Even on my birthdays, when I just wanted to stay at home and invite at least some acquaintances to my place.</Hero>
+		<Hero name="">Although, of course, hardly any of them would agree. It would be futile attempts to make friendships that no one would even allow me to maintain.</Hero>
+		<Hero name="">Therefore, of my friends, I only had toys.</Hero>
+		<Hero name="">Damn, I couldn't even go out with someone and beat the nettles with stick...</Hero>
+		<Hero name="">This is probably so ridiculous...</Hero>
+	</ClickOnPhotos>
+
+	<ClickOnBallOnFloor>
+		<Hero name="">Oh my god, is that really it?...</Hero>
+		<Hero name="">This is literally the most interesting and favorite childhood toy. The only thing that saved me from eternal boredom in between classes...</Hero>
+		<Hero name="">Come here boy.</Hero>
+	</ClickOnBallOnFloor>
+
+	<ThouhtsAfterTakeBall>
+		<Hero name="">I should get out of these memories.</Hero>
+		<Hero name="">There is almost no time, I will be late for work.</Hero>
+	</ThouhtsAfterTakeBall>
+
+
+</root>	

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<ClickOnBall>
+		<Hero name="">Hi boy.</Hero>
+	</ClickOnBall>
+
+	<ClickOnDoor>
+		<Hero name="">So, what is this?.. They managed to put the door with the code, but as a resident of this house, I was not even informed.</Hero>
+		<Hero name="">Funny. Does anyone even know that I live here?..</Hero>
+		<Hero name="">Okay, it doesn't matter.</Hero>
+	</ClickOnDoor>
+
+	<SolveDoorPuzzle>
+		<Hero name="">Okay. Can, bird and heart. It will be necessary to remember about this...</Hero>
+	</SolveDoorPuzzle>
+
+</root>

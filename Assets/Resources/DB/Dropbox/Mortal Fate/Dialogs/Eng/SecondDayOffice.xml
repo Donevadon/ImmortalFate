@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<PeopleTalkFirst>
+		<Hero name="Chris">Man, have you ever heard of the déjà vu effect?</Hero>
+		<Hero name="Security">No, I hear it for the first time.</Hero>
+		<Hero name="Chris">In short, this is when a person feels that he has already been in a similar situation or in a similar place, said such things.</Hero>
+		<Hero name="Security">Damn, cool, never felt this way.</Hero>
+	</PeopleTalkFirst>
+
+	<EdWalkUpAri>
+		<Hero name="Ari">Hello!</Hero>
+		<Hero name="Ed">Hello</Hero>
+		<Hero name="Ari">Hey, I am very uncomfortable to distract you, but I recently worked here and I don’t know anyone yet...</Hero>
+		<Hero name="Ari">Could you help me?</Hero>
+		<Hero name="Ari">I was told to give these documents to Bob, but I have no idea what he looks like, can you imagine!</Hero>
+		<Hero name="Ari">Forgive me for distracting, but you would really help me a lot, that I will never forget, I promise!</Hero>
+		<Hero name="">She's funny. Nobody has asked me for such a trifle yet</Hero>
+		<Hero name="">Well, since she won't forget this for sure...</Hero>
+		<Hero name="Ed">Yes, of course, I'll give him these documents. Is that all?</Hero>
+		<Hero name="Ari">Thank you very much!</Hero>
+		<Hero name="Ed">Yeah, little things.</Hero>
+		<Hero name="">Yeah, little things...</Hero>
+		<Hero name="">Um, who is Bob?.. Yeah, how long have I been working here and I don't know anyone.</Hero>
+		<Hero name="">If I didn't agree to help, I would be either a ducking lonely jerk or an ducking evil idiot. Although, what, in fact, does it matter to me? Pff</Hero>
+		<Hero name="">I need to ask around in the office about this Bob, I might accidentally stumble upon him.</Hero>
+	</EdWalkUpAri>
+
+	<ClickOnSecurity>
+		<Hero name="Ed">Hello, have you seen Bob by any chance?</Hero>
+		<Hero name="Security">Hi, yes, he came here today. It seems that he was not wearing gray sneakers or gray shoes. Oh, and it seems he didn't have a chain around his neck.</Hero>
+		<Hero name="">Wow, i should write this down in my notebook...</Hero>
+	</ClickOnSecurity>
+
+	<ClickOnAlice>
+		<Hero name="Ed">Hi, did you see Bob today?</Hero>
+		<Hero name="Alice">Hi, yes, It seems like he didn't wear a checked shirt or a blue suit today.</Hero>
+	</ClickOnAlice>
+
+	<ClickOnMark>
+		<Hero name="Ed">Hello, did you see Bob today?</Hero>
+		<Hero name="Mark">Hello, what about him?</Hero>
+		<Hero name="Ed">No, just looking for</Hero>
+		<Hero name="Mark">Ah, then look, he is not thin, you will not miss him. Well, and he has a funny hairstyle</Hero>
+	</ClickOnMark>
+
+	<ClickOnChris>
+		<Hero name="Ed">Listen, do you know where Bob has gone? I have to give him something.</Hero>
+		<Hero name="Chris">Hi, no, I don't know where he went, but the last time I saw him was not on the ground floor. He rarely appears here.</Hero>
+	</ClickOnChris>
+
+	<ClickOnBob>
+		<Hero name="Ed">Hello, you're Bob, aren't you?</Hero>
+		<Hero name="Bob">Yes, what is it?</Hero>
+		<Hero name="Ed">I was instructed to give you these documents.</Hero>
+		<Hero name="Bob">Oh great, thanks!</Hero>
+	</ClickOnBob>
+
+	<BobGivePrinterQuest>
+		<Hero name="Bob">Have you met Tom by any chance? I need it to deal with the printer, but he disappeared somewhere.</Hero>
+		<Hero name="Bob">Agree, at the right moment the right people disappear somewhere, and you look for them for half an hour... Murphy's Law in action, huh?</Hero>
+		<Hero name="">It's funny, I've already dealt with this complicated thingummy - it has a surprisingly unusual mechanism.</Hero>
+		<Hero name="">When you need to print something and the printer doesn't work, you usually look for a technician to take care of the thing.</Hero>
+		<Hero name="">Hah, but when you don’t even know the name of this technician, and you don’t really want to look for him, you have to figure it out yourself...</Hero>
+		<Hero name="Bob">Oh, listen, maybe you understand this? If you fixed this thing, I answer, you would become the employee of the year, hahaha</Hero>
+		<Hero name="">Damn. Oh no not this...</Hero>
+		<Hero name="Ed">Okay, I can take a look, but I can't promise anything, I'm sorry.</Hero>
+		<Hero name="Bob">Yes, of course I understand that.</Hero>
+		<Hero name="Bob">By the way, take this. It was on the printer.</Hero>
+		<Hero name="Bob">May come in handy. I just can't imagine how because it is broken.</Hero>
+		<Hero name="Bob">But this is the best part of the screwdriver, as for me, because this is where all the functionality is, nhahha.</Hero>
+	</BobGivePrinterQuest>
+
+	<OpenPrinterPanel>
+		<Hero name="">I have to walk around here, maybe I'll find something suitable.</Hero>
+	</OpenPrinterPanel>
+
+	<ClosePrinterPanel>
+		<Hero name="">Well, let's go. Hope it will be an exciting journey.</Hero>
+	</ClosePrinterPanel>
+
+
+	<GearsHintFirst>
+		<Hero name="">Damn, you work, you work here in the office, what is it called?.. And, for sure, you make a living, which will end quickly anyway.</Hero>
+	</GearsHintFirst>
+
+	<GearsHintSecond>
+		<Hero name="">I sometimes think I was good at math... What if I went to analytics? Hmm...</Hero>
+	</GearsHintSecond>
+
+	<GearsHintThird>
+		<Hero name="">I wonder what time it is?</Hero>
+		<Hero name="">Sometimes in this office you lose the goddamn sense of time, thank God the builders put windows here.</Hero>
+		<Hero name="">Otherwise everything would look like a black mirror.</Hero>
+	</GearsHintThird>
+
+	<GearsHintFourth>
+		<Hero name="">In childhood, they sometimes said something like, um, if something doesn't work out, try to delve deeper into the problem and look for a solution, looking at everything from a different angle...</Hero>
+		<Hero name="">It is unlikely, however, the problem with the damn gears can't be viewed from a different angle, but the first one... Hmm </Hero>
+	</GearsHintFourth>
+
+	<WrongGear>
+		<Hero name="">No, not this...</Hero>
+	</WrongGear>	
+
+	<SolveGears>
+		<Hero name="Ed">Well, that's it.</Hero>
+		<Hero name="Bob">Wow you're a ducking wizard!!</Hero>
+		<Hero name="Bob">By the way, despite the fact that you already know my name, I want to introduce myself - I'm Bob, and you?</Hero>
+		<Hero name="Ed">I'm Ed.</Hero>
+		<Hero name="Bob">Great, Ed, nice to meet you. The world should know heroes by name!</Hero>
+	</SolveGears>
+
+	<EdWalkUpDavid>
+		<Hero name="David">Hey dude! Can you come here please?</Hero>
+	</EdWalkUpDavid>
+
+	<ClickOnDavid>
+		<Hero name="David">Dude, this is a mockery! Have you seen Tom? This devil has disappeared somewhere, but my project is on fire here.</Hero>
+		<Hero name="David">Estimate, I worked on files a lot of time, about two months, and they just disappeared from my pc.</Hero>
+		<Hero name="Ed">Wait a second, I'll check one thing.</Hero>
+		<Hero name="Ed">Error 37: Connection Unavailable or No Connection to Master Server.</Hero>
+		<Hero name="Ed">Well... I checked my files today, they were fine. Apparently, your pc disconnected from the main server somehow.</Hero>
+		<Hero name="Ed">Do you know where this server is? I’ll go and check it.</Hero>
+		<Hero name="David">Dude, how do I know such subtle technical things?! You need to find out from Tom, but he's gone!</Hero>
+		<Hero name="Ed">Okay, don't get excited, I'll figure something out. Give me time.</Hero>
+		<Hero name="">So, main server, main server... Where can I find you?</Hero>
+	</ClickOnDavid>
+
+	<TalkAboutTom>
+		<Hero name="Chris">Look, do you know why Tom was so angry yesterday? He began to destroy and tear everything up.</Hero>
+		<Hero name="Security">Phaha, I saw this scene, it was very funny. Tom is quite easy to piss off. And most of all he is enraged by the network technical things.</Hero>
+		<Hero name="Security">Oh I don't go into the jungle, I don't understand at all.</Hero>
+		<Hero name="">So Tom tore everything... I neet to think. Hmm...</Hero>
+		<Hero name="">Hmmm...</Hero>
+	</TalkAboutTom>
+
+	<TornPaperHint>
+		<Hero name="">The guys were discussing how Tom tore everything up yesterday... Maybe he tore something important?</Hero>
+	</TornPaperHint>
+
+	<FindTornPaper>
+		<Hero name="">Oops, this seems like something really important. Can I put it together somehow?</Hero>
+	</FindTornPaper>
+
+	<DocumentationHint>
+		<Hero name="">Maybe try to spread these scraps on the table?</Hero>
+	</DocumentationHint>
+
+	<DocumentationOnWorkspace>
+		<Hero name="">Aha, got it! Looks like server documentation.</Hero>
+		<Hero name="">Hell, this is great news, of course. Only here it is written that it must be on the first floor for fire safety.</Hero>
+		<Hero name="">Hell, can’t you be more specific? I'm literally like Vincent Vega now.</Hero>
+	</DocumentationOnWorkspace>
+
+	<ClickOnDavidAfterSolveServer>
+		<Hero name="Ed">Done, check it out</Hero>
+		<Hero name="David">So now...</Hero>
+		<Hero name="David">...</Hero>
+		<Hero name="David">...</Hero>
+		<Hero name="Ed">So what?</Hero>
+		<Hero name="David">Give me a sec...</Hero>
+		<Hero name="David">...</Hero>
+		<Hero name="David">Ooh, YES, there are, they are right here, right here on my screen!</Hero>
+		<Hero name="David">How did you do this? Are you a magician? Or a sorcerer?</Hero>
+		<Hero name="Ed">How do they differ from each other?</Hero>
+		<Hero name="David">Well, sort of like a sorcerer, usually an antisocial introverted personality, self-sufficient, so to speak</Hero>
+		<Hero name="David">And the magician is a civilized old wise wizard.</Hero>
+		<Hero name="Ed">Who is this wizard?</Hero>
+		<Hero name="David">Oh man, I feel like I'm on a WoW quiz. Do not continue. I lost then, and this is an open wound in my heart until now...</Hero>
+		<Hero name="Ed">Okay, no problem</Hero>
+		<Hero name="David">Really, thank you so much, now I can get down to work normally.</Hero>
+		<Hero name="David">Patron Saint of the Deep, Aldrick the Devourer, give me strength...</Hero>
+		<Hero name="">Damn, I completely forgot about my job...</Hero>
+	</ClickOnDavidAfterSolveServer>
+
+	<ClickOnWorkspace>
+		<Hero name="">Damn, it's so late. How did I fail to keep track of the time?</Hero>
+		<Hero name="">How long will I have to sit to complete my daily plan? God...</Hero>
+		<Hero name="">Okay, the sooner I sit down, the sooner I finish.</Hero>
+	</ClickOnWorkspace>
+
+	<SolveWorkPuzzle>
+		<Hero name="">Yes, cool, very cool. And how interesting it turns out...</Hero>
+		<Hero name="">The one who helps everyone is ultimately left alone. Cool</Hero>
+		<Hero name="">I bet you, this is my last day as an altruist. Hell, nobody even bought me coffee for help.</Hero>
+		<Hero name="">Okay, these thoughts will get me nowhere, I need to sleep.</Hero>
+	</SolveWorkPuzzle>
+
+
+</root>

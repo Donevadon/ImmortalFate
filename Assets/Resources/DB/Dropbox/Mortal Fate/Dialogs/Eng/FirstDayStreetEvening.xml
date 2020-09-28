@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<ClickOnDoor>
+		<Hero name="">Oh my god, she's so weird...</Hero>
+		<Hero name="">How old is she?</Hero>
+		<Hero name="">Is she...</Hero>
+		<Hero name="">Is she smiling?</Hero>
+	</ClickOnDoor>
+
+	<EdWalkUpAri>
+		<Hero name="Ari">Hey, hello!</Hero>
+		<Hero name="Ed">Mmmm, hello.</Hero>
+		<Hero name="Ari">Is it legal to distribute sadness to people somewhere? Why are you so sad?.. Did something happen to you?</Hero>
+		<Hero name="Ed">I'm pretty ordinary. Worked all day.</Hero>
+		<Hero name="Ed">Is it legal to distribute gladness to people somewhere?</Hero>
+		<Hero name="Ari">Hahahha, good joke!</Hero>
+		<Hero name="Ari">Despite the weather, I am in a great mood today!</Hero>
+		<Hero name="Ari">Sometimes I like to sit on the street in the evening and read a book, but today I read a little. I closed the book and saw you immediately.</Hero>
+		<Hero name="Ari">And, to be honest, I have never seen such a gray cloudlet before.</Hero>
+		<Hero name="Ari">Please stop being sad, look what I have!</Hero>
+	</EdWalkUpAri>
+
+</root>	

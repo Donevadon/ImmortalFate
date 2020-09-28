@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<PeopleTalkFirst>
+		<Hero name="Chris">Слушай, тебе знаком эффект дежавю? Чувствовал когда-нибудь такое?</Hero>
+		<Hero name="Security">Не, в первые слышу, что это?</Hero>
+		<Hero name="Chris">Короче, это когда человек ощущает, что когда-то уже был в подобной ситуации или в подобном месте, говорил подобные вещи...</Hero>
+		<Hero name="Security">Вау, интересно... никогда не испытывал...</Hero>
+		<Hero name="Security">Вроде бы...</Hero>
+		<Hero name="Security">Сейчас, сейчас...</Hero>
+		<Hero name="Security">Нет, никогда...</Hero>
+		<Hero name="Chris">Я вот тоже. Честно сказать, не понимаю, как такое может быть. Это же что-то из разряда нереального.</Hero>
+		<Hero name="Chris">Вы ещё скажите, что в двадцать первом веке выскочит какая-то болячка, которой заразятся несколько десятков милионов людей на всей планете.</Hero>
+		<Hero name="Security">Ахаха, да, да, и которая появилась каким-то супер нелепым образом, типа как если бы кто-то что-то съел непонятное.</Hero>
+		<Hero name="Chris">Ну вот да, из этой серии.</Hero>
+	</PeopleTalkFirst>
+	
+	<ClickOnChris>
+		<Hero name="Chris">Чувак, только не говори, что у тебя когда-нибудь было дежавю. Я не поверю.</Hero>
+	</ClickOnChris>
+	
+	<ClickOnBob>
+		<Hero name="Bob">Да, Эд, я бы ещё раз хотел поблагодарить тебя за вчерашнюю помощь.</Hero>
+		<Hero name="Bob">Мне повезло, что ты оказался в нужном месте в нужное время.</Hero>
+		<Hero name="Ed">В целом, это Ари надо говорить спасибо.</Hero>
+	</ClickOnBob>
+	
+	<ClickOnMark>
+		<Hero name="Mark">Что?</Hero>
+	</ClickOnMark>
+	
+	<ClickOnDavid>
+		<Hero name="David">Чувак, круто, что ты вчера помог, спасибо.</Hero>
+		<Hero name="David">Надеюсь, сегодня такой проблемы не возникнет.</Hero>
+		<Hero name="David">Но если что, я смогу к тебе обратиться?</Hero>
+		<Hero name="Ed">Да, я буду вон там.</Hero>
+	</ClickOnDavid>
+
+	<ClickOnWorkspace>
+		<Hero name="">Интересно, а где Ари? Надо не забыл с ней поговорить.</Hero>
+		<Hero name="">Окей, сегодня без прилюдий. Сразу за работу. Ладно, что там на у меня на сегодня?</Hero>
+	</ClickOnWorkspace>
+	
+	<SolveWorkPuzzle>
+		<Hero name="Mark">Привет, Эд!</Hero>
+		<Hero name="Ed">Да, Привет.</Hero>
+		<Hero name="Mark">Я Марк, помнишь меня?</Hero>
+		<Hero name="Ed">Эээ, честно говоря, нет.</Hero>
+		<Hero name="Mark">Ну ладно, это в общем-то не важно.</Hero>
+		<Hero name="Mark">Слушай, мне Боб сказал, что ты герой и мастер на все руки... мне как раз нужен такой человек, ты поможешь мне?</Hero>
+		<Hero name="">В принципе, я закончил свою работу...</Hero>
+		<Hero name="Ed">А что конкретно нужно?</Hero>
+		<Hero name="Mark">Тут дверь в кладовку на втором этаже в левой секции по каким то причинам не открывается, и ключу не поддаётся... хотя мб это и не тот ключ...</Hero>
+		<Hero name="Mark">Кладовщик уже ушёл, а мне до завершения проекта осталось совсем немного.</Hero>
+		<Hero name="Ed">Так воспользуйся другой кладовой, она же во всём офисе не одна.</Hero>
+		<Hero name="Mark">Да я уже там смотрел, и там не было того, что мне нужно...</Hero>
+		<Hero name="Mark">Может, на следующей неделе завезут, но я не могу столько ждать.</Hero>
+		<Hero name="Mark">Осталось проверить только одну дверь. А если там нет, придётся писать заявление на быстрый заказ, а ты сам знаешь, как это круто...</Hero>
+		<Hero name="Ed">Так, а что от меня нужно-то, я так и не понял.</Hero>
+		<Hero name="Mark">Может ты посмотришь, как открыть эту чёртову дверь? Может, тебе что-нибудь придет в голову.</Hero>
+		<Hero name="Ed">Нуу, ладно, мне не сложно взглянуть.</Hero>
+		<Hero name="Mark">Я буду тебе крайне признателен!</Hero>
+		<Hero name="">Окей, значит, на втором этаже в левой секции.</Hero>
+	</SolveWorkPuzzle>
+
+	<ClickOnMarkBeforeSolveLockPuzzle>
+		<Hero name="Mark">Ну как? Открыл ту дверь?</Hero>
+		<Hero name="Mark">Если ты забыл, она в левой секции на втором этаже.</Hero>
+		<Hero name="Ed">Я вот как раз в процессе...</Hero>
+	</ClickOnMarkBeforeSolveLockPuzzle>
+	
+	<ClickOnLock>
+		<Hero name="">Да, действительно, ключу эта штука не поддаётся...</Hero>
+		<Hero name="">Надо найти что-то маленькое и тонкое, по типу отмычки. С ней я запросто смогу это открыть.</Hero>
+	</ClickOnLock>
+	
+	<HairpinHint>
+		<Hero name="">Надо найти подходящую вещь, чтобы взломать замок. Что-то небольшое и тонкое, может острое.</Hero>
+	</HairpinHint>
+	
+	<ClickOnHairpin>
+		<Hero name="">Да, это может подойти.</Hero>
+	</ClickOnHairpin>
+	
+	<HairpinBreak>
+		<Hero name="">Нет, только не это... У сломанной заколки не хватает длины, надо искать новую.</Hero>
+	</HairpinBreak>
+	
+	<ClickOnLockAfterHairpinBreak>
+		<Hero name="">Так, ну, попробуем снова.</Hero>
+	</ClickOnLockAfterHairpinBreak>
+	
+	<SolveLockPuzzle>
+		<Hero name="">Получилось.</Hero>
+		<Hero name="">Надо сказать Марку, чтобы заработать очки, хехе.</Hero>
+	</SolveLockPuzzle>
+	
+	<ClickOnMarkAfterSolveLockPuzzle>
+		<Hero name="Ed">Ей, Марк, кладовая открыта. Иди, бери, что тебе нужно было. А я, пожалуй, пойду уже домой.</Hero>
+		<Hero name="Mark">Ого, да ты действительно крут! Спасибо, хехе.</Hero>
+		<Hero name="Mark">А ты уже закончил дневной план?</Hero>
+		<Hero name="Ed">Ну да, иначе я бы не уходил.</Hero>
+		<Hero name="Mark">Повезло тебе... Ну ладно, удачи! Она тебе понадобится.</Hero>
+		<Hero name="Mark">Извини если что. Но, ведь, всё, что ни делается - всё к лучшему, верно?</Hero>
+		<Hero name="Ed">Ну даже не знаю.</Hero>
+	</ClickOnMarkAfterSolveLockPuzzle>
+	
+	<EdWalkUpSecurity>
+		<Hero name="Security">так, мен, это чё за херня?</Hero>
+		<Hero name="Security">Я не такой тупой, как ты думаешь. Какую работу, я, по твоему, выполняю??</Hero>
+		<Hero name="Security">Ты забыл о камерах!</Hero>
+		<Hero name="Ed">О чём ты?...</Hero>
+		<Hero name="Security">Босс давал четкое указание на этот счёт и такая херня наиболее наказуема...</Hero>
+		<Hero name="Security">Можешь выматываться отсюда, а завтра приходи за заявлением об увольнении и своими вещами, потому что босс об этом узнает...</Hero>
+		<Hero name="Security">Нечего лезть в закрытые на замок двери.</Hero>
+		<Hero name="Security">Как ты думаешь, зачем иначе там замок, идиот?</Hero>
+		<Hero name="Security">Проваливай отсюда.</Hero>
+	</EdWalkUpSecurity>
+	
+</root>

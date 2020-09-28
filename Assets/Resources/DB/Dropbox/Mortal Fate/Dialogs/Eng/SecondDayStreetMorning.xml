@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<ThouhtsAfterTakeBookFirst>
+		<Hero name="">Wait, what is this?</Hero>
+	</ThouhtsAfterTakeBookFirst>
+
+	<ThouhtsAfterTakeBookSecond>
+		<Hero name="">Dante Alighieri. The Divine Comedy. Interesting...</Hero>
+	</ThouhtsAfterTakeBookSecond>
+
+	<ThouhtsAfterTakeBookThird>
+		<Hero name="">How it was in it... Mmmm... But no, it's in another book. I didn't read this one because I had to work on the math once again.</Hero>
+	</ThouhtsAfterTakeBookThird>
+
+	<ThouhtsAfterTakeBookFourth>
+		<Hero name="">Instead of Dante, I read about complex numbers. Was it useful to me? Well, to pass the math exam, that's all.</Hero>
+		<Hero name="">Although I don't know if the Divine Comedy would be useful to me. Maybe I would laugh once more</Hero>
+	</ThouhtsAfterTakeBookFourth>
+
+</root>

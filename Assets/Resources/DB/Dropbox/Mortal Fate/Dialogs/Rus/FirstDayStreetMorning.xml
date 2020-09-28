@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+
+	<ClickOnBall>
+		<Hero name="">Привет, малыш...</Hero>
+	</ClickOnBall>
+
+	<ClickOnDoor>
+		<Hero name="">Так, это что за дела?... Успели поставить дверь с кодом, но мне, как жителю этого дома, его даже не сообщили...</Hero>
+		<Hero name="">Забавно. Кто-нибудь вообще знает, что я тут живу?...</Hero>
+		<Hero name="">Ладно, не важно...</Hero>
+	</ClickOnDoor>
+
+	<SolveDoorPuzzle>
+		<Hero name="">Ладно. Банка, птица и сердце. Надо будет запомнить...</Hero>
+	</SolveDoorPuzzle>
+	
+
+</root>

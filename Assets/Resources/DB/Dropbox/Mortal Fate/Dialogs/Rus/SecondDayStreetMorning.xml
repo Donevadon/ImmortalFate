@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<ThouhtsAfterTakeBookFirst>
+		<Hero name="">Погоди, что это?</Hero>
+	</ThouhtsAfterTakeBookFirst>
+	
+	<ThouhtsAfterTakeBookSecond>
+		<Hero name="">Данте Алигьери. Божественная комедия. Интересно...</Hero>
+	</ThouhtsAfterTakeBookSecond>
+	
+	<ThouhtsAfterTakeBookThird>
+		<Hero name="">Там же это, происходит, как его там... А не, это в другой книге. Эту я не читал, потому как пришлось лишний раз сидеть над математикой...</Hero>
+	</ThouhtsAfterTakeBookThird>
+	
+	<ThouhtsAfterTakeBookFourth>
+		<Hero name="">Вместо Данте я читал о комплексных числах. Пригодилось ли мне это? Ну, чтобы сдать экзамен по метематике, и всё...</Hero> 
+		<Hero name="">Хотя я не знаю, пригодилась бы мне Божественная комедия. Может, лишний раз бы посмеялся.</Hero>
+	</ThouhtsAfterTakeBookFourth>	
+
+
+</root>

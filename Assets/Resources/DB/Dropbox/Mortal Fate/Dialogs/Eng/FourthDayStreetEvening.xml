@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+	<HeroesLeaveOfficeFirst>
+		<Hero name="Ari"> God, how wonderful it is! </Hero>
+		<Hero name="Ari"> Breathe this air! How fresh it is! Finally! </Hero>
+		<Hero name="Ed"> ... </Hero>
+		<Hero name="Ed"> Yes, that's for sure </Hero>
+		<Hero name="Ed"> The air is beautiful </Hero>
+		<Hero name="Ed"> Is he like that every day? </Hero>
+		<Hero name="Ari"> Yes! Have you ever noticed?</Hero>
+		<Hero name="Ed"> Honestly, no </Hero>
+		<Hero name="Ed"> I haven't felt anything lately </Hero>
+		<Hero name="Ed"> Well lately ... For a very long time, actually </Hero>
+		<Hero name="Ed"> And I'm not just talking about the smell of this air </Hero>
+		<Hero name="Ed"> Everything seemed so gray, lifeless, tasteless and devoid of any odors to me </Hero>
+		<Hero name="Ed"> Probably since childhood. Ever since I can remember </Hero>
+	</HeroesLeaveOfficeFirst>
+
+	<HeroesLeaveOfficeSecond>
+		<Hero name="Ari"> What happened in your childhood? </Hero>
+		<Hero name="Ed"> The fact of the matter is that nothing at all </Hero>
+		<Hero name="Ed"> Except for study and various prohibitions </Hero>
+		<Hero name="Ed"> And this, as you understand, is not a very pleasant thing </Hero>
+		<Hero name="Ed"> I didn't even have friends to feel what suddenly fell on me today </Hero>
+		<Hero name="Ed"> Fell, of course, not in a negative sense. Rather, it was unpredictable for me, I could not even imagine such a thing </Hero>
+		<Hero name="Ed"> It sound so pathetic ... </Hero>
+		<Hero name="Ari"> No, it's not </Hero>
+		<Hero name="Ed"> I just now realized how immensely grateful I am for today </Hero>
+		<Hero name="Ari"> Come on, this is what your loved ones are for </Hero>
+		<Hero name="Ed"> I've never experienced this </Hero>
+		<Hero name="Ari"> Someday everything happens for the first time, Ed </Hero>
+		<Hero name="Ed"> Ari, you know, I have another strange and unfamiliar feeling right now </Hero>
+		<Hero name="Ed"> Feeling like my life is starting to change little by little </Hero>
+		<Hero name="Ed"> From tasteless to full of aromas </Hero>
+		<Hero name="Ed"> From gray to nicely colored </Hero>
+		<Hero name="Ed"> From lonely to filled with friendly emotions and quiet joy </Hero>
+		<Hero name="Ed"> I'm afraid now that I might accidentally drive this feeling away. </Hero>
+		<Hero name="Ed"> It's strange even to say it - before I had nothing to fear </Hero>
+		<Hero name="Ari"> Don't be afraid, you won't drive these feelings away </Hero>
+		<Hero name="Ed"> Are you so sure? How do you know? </Hero>
+		<Hero name="Ari"> I just believe it </Hero>
+		<Hero name="Ed"> Ari, thank you </Hero>
+		<Hero name="Ari"> Why? </Hero>
+		<Hero name="Ed"> You played a big role in this. This story wouldn’t exist without you </Hero>
+		<Hero name="Ari"> I'm very flattered if you really think so </Hero>
+	</HeroesLeaveOfficeSecond>
+
+	<ClickOnHomeDoor>
+		<Hero name="Ari"> By the way, you wanted to talk about reality and dreams, remember? </Hero>
+		<Hero name="Ed"> Yes, of course </Hero>
+		<Hero name="Ed"> I wanted to say that I started to confuse what happens in a dream and what is in reality </Hero>
+		<Hero name="Ed"> Sometimes I am sure that the events that happened in reality were actually in my dreams </Hero>
+		<Hero name="Ed"> I wake up trying to solve a puzzle of events, but often it just doesn't work out </Hero>
+		<Hero name="Ed"> And now I am very interested, will it seem to me tomorrow morning that our current conversation was in my dream? </Hero>
+		<Hero name="Ed"> Tell me, is this a dream? </Hero>
+		<Hero name="Ari"> No, this is real reality </Hero>
+		<Hero name="Ed"> It may sound very strange, but in recent days you appear in my dreams </Hero>
+		<Hero name="Ari"> Oh Ed, I know that </Hero>
+	</ClickOnHomeDoor>
+
+
+
+
+</root>
