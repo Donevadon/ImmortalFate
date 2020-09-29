@@ -4,14 +4,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource))]
 /// <summary>
 /// Добавляет объекты и предоставляет к ним доступ
 /// </summary>
 public class Inventory : MonoBehaviour
 {
     private static Transform conteiner;
+    private static AudioSource _audio;
     private void Awake()
     {
+        _audio = GetComponent<AudioSource>();
+        _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/AddItem");
         conteiner = transform;
         DontDestroyOnLoad(transform.parent);
     }
@@ -22,6 +26,7 @@ public class Inventory : MonoBehaviour
     /// <param name="item"></param>
     public void AddItem<T>() where T : IItemInventory
     {
+        _audio.Play();
         ICellInventory cell = (ICellInventory)Resources.Load($"Prefabs/{typeof(CellInventory).Name}",typeof(ICellInventory));
         cell = Instantiate(cell.GameObject, conteiner).GetComponent<ICellInventory>();
         cell.Fill<T>();

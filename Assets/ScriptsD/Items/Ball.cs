@@ -17,7 +17,7 @@ public class Ball : MonoBehaviour, IDialogEventHandler
             StartCoroutine(Move());
         else if(scoreEvents == 5)
         {
-            IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.Intro,DialogManager.Places.ThouhtsAfterTakeBall ,false, () => SceneManager.LoadScene("1DayStreetMorning"), 2);
+            IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.Intro,DialogManager.Places.ThouhtsAfterTakeBall ,false,FindObjectOfType<GoWork>().GetComponent<IDialogEventHandler>().FinishedHandler, 2);
             dialogs.OpenDialog();
             new Inventory().AddItem<BallItem>();
             Destroy(gameObject);

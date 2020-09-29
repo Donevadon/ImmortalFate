@@ -14,7 +14,7 @@ public class DialogDataBase : MonoBehaviour, ILoadDialogs
     private string[][] GetDialogs(DialogManager.Scenes scene, DialogManager.Places place) 
     {
         List<string[]> list = new List<string[]>();
-        XDocument xml = XDocument.Load(Application.dataPath + $"/Resources/DB/Dropbox/Mortal Fate/Dialogs/Eng/{scene}.xml");
+        XDocument xml = XDocument.Load(Application.dataPath + $"/Resources/DB/Dropbox/Mortal Fate/Dialogs/Rus/{scene}.xml");
         var dialogs = from dialog in xml.Element("root")
                       .Element(place.ToString())
                       .Elements("Hero")
