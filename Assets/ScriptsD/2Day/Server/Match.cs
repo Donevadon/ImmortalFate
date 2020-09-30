@@ -21,6 +21,7 @@ public class Match : MonoBehaviour,IMatch
     private List<ICheckLamp> lampGreen;
 
     private event Action matchIsOver;
+    private AudioSource _audio;
 
     public GameObject GameObject => gameObject;
 
@@ -28,6 +29,7 @@ public class Match : MonoBehaviour,IMatch
     {
         lampsRed = new List<ICheckLamp>();
         lampGreen = new List<ICheckLamp>();
+        _audio = GetComponent<AudioSource>();
         AddLamp();
     }
 
@@ -50,7 +52,13 @@ public class Match : MonoBehaviour,IMatch
     {
         for(int i = 0; i < transform.childCount; i++)
         {
-            if (transform.GetChild(i).GetComponent<ICheckTrue>() != null) transform.GetChild(i).GetComponent<ICheckTrue>().CheckTrue += () => CheckLamp();
+            if (transform.GetChild(i).GetComponent<ICheckTrue>() != null) 
+                transform.GetChild(i).GetComponent<ICheckTrue>().CheckTrue += () => 
+                {
+                    _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/ClickServer");
+                    _audio.Play();
+                    CheckLamp(); 
+                };
             else
             {
                 ICheckLamp lamp = transform.GetChild(i).GetComponent<ICheckLamp>();

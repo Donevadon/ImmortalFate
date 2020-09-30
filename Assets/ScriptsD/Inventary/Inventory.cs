@@ -45,6 +45,16 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public bool FindObject<T>() where T : IItemInventory
+    {
+        for (int i = 0; i < conteiner.transform.childCount; i++)
+        {
+            if (conteiner.transform.GetChild(i).GetComponent<T>() != null) return true;
+        }
+        return false;
+
+    }
+
     public void RemoveItem(IGears Item)
     {
         for (int i = 0; i < conteiner.transform.childCount; i++)

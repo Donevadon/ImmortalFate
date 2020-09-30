@@ -20,11 +20,17 @@ public class Work : MonoBehaviour, IDialogEventHandler
     public DialogManager.Places placeHandler;
     public bool moveLock;
     public Fin ari;
+    private AudioSource _audio;
 
     public QuestMark mark;
     public void FinishedHandler()
     {
         Working();
+    }
+
+    private void Awake()
+    {
+        _audio = GetComponent<AudioSource>();
     }
 
     private void Working()
@@ -41,10 +47,13 @@ public class Work : MonoBehaviour, IDialogEventHandler
             value += speedDarken;
             yield return new WaitForSeconds(0);
         }
+        _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/SoundWork");
+        _audio.Play();
         yield return new WaitForEndOfFrame();
         Player.transform.position = new Vector3(UnworkPoint.x,UnworkPoint.y,Player.transform.position.z);
         Camera.main.transform.position = new Vector3(UnworkPoint.x, UnworkPoint.y, Camera.main.transform.position.z);
         yield return new WaitForSeconds(TimePause);
+        _audio.Stop();
         while (Display.color.a > 0)
         {
             Display.color = new Color(0, 0, 0, value);

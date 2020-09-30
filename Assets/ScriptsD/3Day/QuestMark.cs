@@ -19,10 +19,14 @@ public class QuestMark : MonoBehaviour, IDialogEventHandler
     [Header("Место диалога после работы")]
     public DialogManager.Places placeHandler;
     public bool moveLock;
-
+    public AudioSource OfficeSound;
+    public AudioSource _audio;
 
     public void FinishedHandler()
     {
+        OfficeSound.Stop();
+        _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/3DayOffice/Tragedy");
+        _audio.Play();
         IShowDialogs dialog = new DialogManager(DialogManager.Scenes.ThirdDayOffice, DialogManager.Places.SolveWorkPuzzle, true, () => StartCoroutine(Break()), 19); ;
         StartCoroutine(dialog.OpenDialogCoroutine());
     }

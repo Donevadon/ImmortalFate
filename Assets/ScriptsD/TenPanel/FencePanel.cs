@@ -9,14 +9,18 @@ public class FencePanel : MonoBehaviour
     public Sprite OpenDoor;
     public Panel panel;
     private BoxCollider2D boxCollider;
+    private AudioSource _audio;
 
     private void Awake()
     {
+        _audio = GetComponent<AudioSource>();
         boxCollider = GetComponent<BoxCollider2D>();
         panel.Corrected += Open;
         panel.Corrected += ClosePanel;
         panel.Corrected += () =>
         {
+            _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/Correct");
+            _audio.Play();
             IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.FirstDayStreetMorning, DialogManager.Places.SolveDoorPuzzle,false);
             StartCoroutine(dialogs.OpenDialogCoroutine());
         };

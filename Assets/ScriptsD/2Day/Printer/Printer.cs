@@ -34,10 +34,20 @@ public class Printer : MonoBehaviour,IPrinter
     public GameObject panel;
     public bool ActiveQuest = true;
     private bool activeDialog = true;
+    public GameObject Items;
+    private AudioSource _audio;
+    private Coroutine Hint;
+
+    private void Awake()
+    {
+        _audio = GetComponent<AudioSource>();
+    }
 
     public void UpdateGear()
     {
-        foreach(var place in places)
+        _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/InstallGear");
+        _audio.Play();
+        foreach (var place in places)
         {
             if (place.gear?.Meud != place.Meud) return;
         }
@@ -48,6 +58,7 @@ public class Printer : MonoBehaviour,IPrinter
     {
         if (ActiveQuest)
         {
+            Items.SetActive(true);
             if (activeDialog) 
             {
                 IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.OpenPrinterPanel, false);
@@ -73,7 +84,7 @@ public class Printer : MonoBehaviour,IPrinter
 
     public void StartHind()
     {
-        StartCoroutine(Hind());
+       Hint = StartCoroutine(Hind());
     }
 
     IEnumerator Hind()
@@ -95,7 +106,9 @@ public class Printer : MonoBehaviour,IPrinter
 
     private void Win()
     {
-        StopCoroutine(Hind());
+        StopCoroutine(Hint);
+        _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/PrinterLaunch");
+        _audio.Play();
         ActiveQuest = false;
         panel.SetActive(false);
         IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.SolveGears, true, () => QuestDavid.Active = true, 5);

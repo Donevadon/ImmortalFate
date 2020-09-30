@@ -24,6 +24,7 @@ public enum ButtonList
     Bird,
     Bank = 0,
 }
+[RequireComponent(typeof(AudioSource))]
 
 public class Panel : MonoBehaviour
 {
@@ -35,6 +36,8 @@ public class Panel : MonoBehaviour
     private string enterCode;
     private bool work = true;
     public event Action Corrected;
+    private AudioSource _audio;
+
 
     private void Start()
     {
@@ -55,12 +58,15 @@ public class Panel : MonoBehaviour
 
     private void Awake()
     {
+        _audio = GetComponent<AudioSource>();
         GetComponent<Image>().sprite = Resources.Load<Sprite>($"DB/Dropbox/Mortal Fate/PanelCode/panel");
     }
 
     private void EnterCode(IButton button)
     {
         if (!work) return;
+        _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/EnterCode");
+        _audio.Play();
         enterCode += (int)button.Button;
         fields[enterCode.Length - 1].sprite = Resources.Load<Sprite>($"DB/Dropbox/Mortal Fate/PanelCode/DisplayIcons/{(int)button.Button}");
         if (enterCode.Length == 3) CheckCode();
@@ -68,7 +74,10 @@ public class Panel : MonoBehaviour
 
     private void CheckCode()
     {
-        if (correctCode == enterCode) Corrected();
+        if (correctCode == enterCode)
+        {
+            Corrected();
+        }
         else StartCoroutine(Error());
     }
 
@@ -78,7 +87,9 @@ public class Panel : MonoBehaviour
         work = false;
         ResetCode();
         error.SetActive(true);
-        yield return new WaitForSeconds(2f);
+        _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/Wrong");
+        _audio.Play();
+        yield return new WaitForSeconds(1f);
         error.SetActive(false);
         work = true;
         PlayerControl.MoveLock = false;

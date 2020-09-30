@@ -19,7 +19,7 @@ public partial class DialogManager : MonoBehaviour
         FourthDayStreetMorning,
         FourthDayOffice,
         FourthDayStreetEvening,
-        ThirdDayStreetEvening
+        ThirdDayStreetEvening,
     }
 
     public enum Places
@@ -84,6 +84,7 @@ public partial class DialogManager : MonoBehaviour
         BobGivePrinterQuest,
         EdWalkUpPeople,
         SolveDreamPuzzle,
-        ThoughtsAfterLeaveOffice
+        ThoughtsAfterLeaveOffice,
+        DontGiveBookAri
     }
 }

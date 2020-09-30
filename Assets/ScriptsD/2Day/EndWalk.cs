@@ -6,10 +6,20 @@ using UnityEngine.SceneManagement;
 public class EndWalk : MonoBehaviour, IDialogEventHandler
 {
     public bool moveLock;
+    private Inventory inventory = new Inventory();
     public void FinishedHandler()
     {
-        new Inventory().RemoveItem<BookItem>();
-        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayStreetEvening, DialogManager.Places.GiveBookAri,moveLock,()=> SceneManager.LoadScene("3DayHomeMorning"),6);
-        StartCoroutine(dialog.OpenDialogCoroutine());
+        if (inventory.FindObject<BookItem>())
+        {
+            new Inventory().RemoveItem<BookItem>();
+            IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayStreetEvening, DialogManager.Places.GiveBookAri, moveLock, GetComponent<TransitionsScenes>().FinishedHandler, 6);
+            StartCoroutine(dialog.OpenDialogCoroutine());
+        }
+        else
+        {
+            IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayStreetEvening, DialogManager.Places.DontGiveBookAri, moveLock, GetComponent<TransitionsScenes>().FinishedHandler, 7);
+            StartCoroutine(dialog.OpenDialogCoroutine());
+        }
+
     }
 }
