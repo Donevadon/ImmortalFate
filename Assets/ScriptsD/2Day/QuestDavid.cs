@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ public class QuestDavid : MonoBehaviour
     public void StartQuest()
     {
         Server._active = true;
-        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnDavid, true,()=>server.gameObject.SetActive(true),9 );
+        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnDavid,()=>server.gameObject.SetActive(true),9 );
         StartCoroutine(dialog.OpenDialogCoroutine());
     }
 
@@ -19,7 +20,7 @@ public class QuestDavid : MonoBehaviour
     {
         work.SetActive(true);
         Active = false;
-        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnDavidAfterSolveServer, true, () => { print("работать"); }, 18);
+        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnDavidAfterSolveServer, () => { print("работать"); }, 18);
         StartCoroutine(dialog.OpenDialogCoroutine());
     }
 
@@ -29,7 +30,7 @@ public class QuestDavid : MonoBehaviour
         {
             if (!Server._active)
             {
-                IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.EdWalkUpDavid, false);
+                IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.EdWalkUpDavid);
                 StartCoroutine(dialog.OpenDialogCoroutine());
             }
             else server.gameObject.SetActive(true);

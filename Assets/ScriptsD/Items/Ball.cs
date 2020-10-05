@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using Assets.DialogModule.EventSystem;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,7 +19,7 @@ public class Ball : MonoBehaviour, IDialogEventHandler
             StartCoroutine(Move());
         else if(scoreEvents == 5)
         {
-            IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.Intro,DialogManager.Places.ThouhtsAfterTakeBall ,false,FindObjectOfType<GoWork>().GetComponent<IDialogEventHandler>().FinishedHandler, 2);
+            IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.Intro,DialogManager.Places.ThouhtsAfterTakeBall,FindObjectOfType<GoWork>().GetComponent<IDialogEventHandler>().FinishedHandler, 2);
             dialogs.OpenDialog();
             new Inventory().AddItem<BallItem>();
             Destroy(gameObject);

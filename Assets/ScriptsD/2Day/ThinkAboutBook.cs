@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using Assets.DialogModule.EventSystem;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,10 +18,10 @@ public class ThinkAboutBook : MonoBehaviour,IDialogEventHandler
     IEnumerator Think()
     {
         yield return new WaitForSeconds(TimeFirstPause);
-        IShowDialogs dialogs3 = new DialogManager(DialogManager.Scenes.SecondDayStreetMorning, DialogManager.Places.ThouhtsAfterTakeBookThird,moveLock);
+        IShowDialogs dialogs3 = new DialogManager(DialogManager.Scenes.SecondDayStreetMorning, DialogManager.Places.ThouhtsAfterTakeBookThird);
         yield return StartCoroutine(dialogs3.OpenDialogCoroutine());
         yield return new WaitForSeconds(TimeSecondPause);
-        IShowDialogs dialogs4 = new DialogManager(DialogManager.Scenes.SecondDayStreetMorning, DialogManager.Places.ThouhtsAfterTakeBookFourth,moveLock);
+        IShowDialogs dialogs4 = new DialogManager(DialogManager.Scenes.SecondDayStreetMorning, DialogManager.Places.ThouhtsAfterTakeBookFourth);
         yield return StartCoroutine(dialogs4.OpenDialogCoroutine());
     }
 

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using Assets.DialogModule.EventSystem;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,7 +21,7 @@ public class Work : MonoBehaviour, IDialogEventHandler
     [Header("Место диалога после работы")]
     public DialogManager.Places placeHandler;
     public bool moveLock;
-    public Fin ari;
+    public AriMove ari;
     private AudioSource _audio;
 
     public QuestMark mark;
@@ -62,7 +64,7 @@ public class Work : MonoBehaviour, IDialogEventHandler
         }
         if (mark is null && ari is null)
         {
-            IShowDialogs dialogs = new DialogManager(sceneHandler, placeHandler, moveLock);
+            IShowDialogs dialogs = new DialogManager(sceneHandler, placeHandler);
             yield return StartCoroutine(dialogs.OpenDialogCoroutine());
         }
         else if (ari is null)

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using Assets.DialogModule.EventSystem;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -27,7 +29,7 @@ public class QuestMark : MonoBehaviour, IDialogEventHandler
         OfficeSound.Stop();
         _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/3DayOffice/Tragedy");
         _audio.Play();
-        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.ThirdDayOffice, DialogManager.Places.SolveWorkPuzzle, true, () => StartCoroutine(Break()), 19); ;
+        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.ThirdDayOffice, DialogManager.Places.SolveWorkPuzzle, () => StartCoroutine(Break()), 19); ;
         StartCoroutine(dialog.OpenDialogCoroutine());
     }
 
@@ -49,7 +51,7 @@ public class QuestMark : MonoBehaviour, IDialogEventHandler
             value -= speedDarken;
             yield return new WaitForSeconds(0);
         }
-        IShowDialogs dialogs = new DialogManager(sceneHandler, placeHandler, moveLock);
+        IShowDialogs dialogs = new DialogManager(sceneHandler, placeHandler);
         yield return StartCoroutine(dialogs.OpenDialogCoroutine());
 
 

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using Assets.DialogModule.EventSystem;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,7 +16,7 @@ public class QuestBob : MonoBehaviour,IDialogEventHandler
 
     private void StartQuest()
     {
-        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.BobGivePrinterQuest,moveLock,()=> 
+        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.BobGivePrinterQuest,()=> 
         {
             new Inventory().AddItem<TipItem>();
             printer.ActiveQuest = true;

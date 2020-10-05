@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -11,7 +12,7 @@ public class BallItem : MonoBehaviour, IItemInventory
 
     public void ClickHandler()
     {
-        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.FirstDayStreetMorning, DialogManager.Places.ClickOnBall,false);
+        IShowDialogs dialog = new DialogManager(DialogManager.Scenes.FirstDayStreetMorning, DialogManager.Places.ClickOnBall);
         StartCoroutine(dialog.OpenDialogCoroutine());
     }
 }

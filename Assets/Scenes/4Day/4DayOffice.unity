@@ -288,10 +288,11 @@ GameObject:
   m_Component:
   - component: {fileID: 816174426}
   - component: {fileID: 816174425}
-  - component: {fileID: 816174424}
-  - component: {fileID: 816174427}
   - component: {fileID: 816174429}
   - component: {fileID: 816174428}
+  - component: {fileID: 816174431}
+  - component: {fileID: 816174430}
+  - component: {fileID: 816174427}
   m_Layer: 0
   m_Name: "\u0410\u0440\u0438 (1)"
   m_TagString: Untagged
@@ -299,32 +300,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &816174424
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816174423}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.38, y: 12}
-    newSize: {x: 4.38, y: 12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.38, y: 12}
-  m_EdgeRadius: 0
 --- !u!212 &816174425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -366,7 +341,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6b99963560a99254b81c11da2ffa6859, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 4.38, y: 12}
@@ -383,7 +358,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816174423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.3, y: -39.7, z: 0}
+  m_LocalPosition: {x: 39.3, y: -40.6, z: 0}
   m_LocalScale: {x: 1.5688633, y: 1.5688633, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -398,10 +373,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 816174423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f256d58855842044e97fcdf37bbb3c05, type: 3}
+  m_Script: {fileID: 11500000, guid: e8cbe38b478c9974097756e40dbc3743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10.5
   Office: {fileID: 816174429}
+  _audio: {fileID: 816174428}
+  move: 0
 --- !u!82 &816174428
 AudioSource:
   m_ObjectHideFlags: 0
@@ -594,6 +572,46 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &816174430
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816174423}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e2a93bde2fe67f46b109d4c3e268f65, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &816174431
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816174423}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
 --- !u!1001 &1543204781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -862,7 +880,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238979084565890014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -36.3, z: 0}
+  m_LocalPosition: {x: -2.4, y: -36.3, z: 0}
   m_LocalScale: {x: 2.865624, y: 2.865624, z: 0}
   m_Children:
   - {fileID: 1238979084824673241}
@@ -1089,7 +1107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Frequency: 1
-  NumberCallEvent: 5
+  NumberCallEvent: 6
   nameObjectHandler: Work
   _using: 0
   scene: 13
@@ -1230,7 +1248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086fdd4e56bc5cf43881b886be50411c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameScene: 
+  nameScene: 4DayStreetEvening
   using: 2
   FinishedDialogs: 0
   Display: {fileID: 1619622398}

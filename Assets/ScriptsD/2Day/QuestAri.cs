@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.DialogModule;
+using Assets.DialogModule.EventSystem;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -51,16 +53,16 @@ public class QuestAri : MonoBehaviour, IDialogEventHandler
             switch (people)
             {
                 case People.Alice:
-                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnAlice,true,this,2);
+                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnAlice,this,2);
                     break;
                 case People.Cris:
-                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnChris,true,this,2);
+                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnChris,this,2);
                     break;
                 case People.Mark:
-                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnMark,true,this,4);
+                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnMark,this,4);
                     break;
                 case People.Secur:
-                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnSecurity,true,this,3);
+                    dialog = new DialogManager(DialogManager.Scenes.SecondDayOffice, DialogManager.Places.ClickOnSecurity,this,3);
                     break;
                 default:
                     return;

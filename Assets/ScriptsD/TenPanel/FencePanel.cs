@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.DialogModule;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,7 +22,7 @@ public class FencePanel : MonoBehaviour
         {
             _audio.clip = Resources.Load<AudioClip>($"DB/Dropbox/Mortal Fate/Sound/Correct");
             _audio.Play();
-            IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.FirstDayStreetMorning, DialogManager.Places.SolveDoorPuzzle,false);
+            IShowDialogs dialogs = new DialogManager(DialogManager.Scenes.FirstDayStreetMorning, DialogManager.Places.SolveDoorPuzzle);
             StartCoroutine(dialogs.OpenDialogCoroutine());
         };
     }
